@@ -1,0 +1,7 @@
+%Problem 1: Calculate the following limits
+format shortG
+syms h x
+equation=input('Input Limit Equation: ');
+variable= input('Input Variable: ');
+aproaches=input(' The Limit approaches to: ');
+limit(equation,variable,aproaches)
