@@ -1,0 +1,4 @@
+%Problem 3: Evaluate the multiple integral
+syms x y z
+equation=input('Input the equation: ');
+Integral = int(int(int(equation,x,[-3 3]),y,[4 7]),z,[-2 -1])
