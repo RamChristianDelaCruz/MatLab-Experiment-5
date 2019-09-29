@@ -1,0 +1,7 @@
+%Problem 2:
+syms x y z
+equation = input('Input Equation: ');
+DerviativeWrtY = diff(equation,y) %df(x,y,z)/dy
+SecondDerivativeWrtZY = diff(diff(equation,z),y,2)  %df(x,y,z)/dzdy
+DerviativeWrtZ = diff(equation,z) %df(x,y,z)/dz
+SecondDerivativeWrtYZ = diff(diff(equation,y),z,2)  %df(x,y,z)/dydz
